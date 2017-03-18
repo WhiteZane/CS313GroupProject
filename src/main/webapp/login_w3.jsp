@@ -1,6 +1,6 @@
 <%-- 
-    Document   : logout
-    Created on : Mar 16, 2017, 10:19:10 AM
+    Document   : index
+    Created on : Mar 16, 2017, 10:09:53 AM
     Author     : zane
 --%>
 
@@ -26,7 +26,7 @@
                 <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
                 <a href="#" class="w3-bar-item w3-button w3-padding-large">Profile</a>
                 <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Code</a>
-                <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Login</a>
+                <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Logout</a>
                 <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small"><em>Username</em></a>
                 <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
             </div>
@@ -35,19 +35,46 @@
         <!-- Page content -->
         <div class="w3-content" style="max-width:2000px;margin-top:46px">
             
-            <!-- The logout message -->
+            <!-- Automatic Slideshow Images -->
+            <div class="mySlides w3-display-container w3-center">
+                <img src="/w3images/la.jpg" style="width:100%">
+                <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+                    <h3>Los Angeles</h3>
+                    <p><b>We had the best time playing at Venice Beach!</b></p>   
+                </div>
+            </div>
+            <div class="mySlides w3-display-container w3-center">
+                <img src="/w3images/ny.jpg" style="width:100%">
+                <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+                    <h3>New York</h3>
+                    <p><b>The atmosphere in New York is lorem ipsum.</b></p>    
+                </div>
+            </div>
+            <div class="mySlides w3-display-container w3-center">
+                <img src="/w3images/chicago.jpg" style="width:100%">
+                <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+                    <h3>Chicago</h3>
+                    <p><b>Thank you, Chicago - A night we won't forget.</b></p>    
+                </div>
+            </div>
+            
+            <!-- The Band Section -->
             <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
                 <h2 class="w3-wide">GitHub API Coolness</h2>
-                <p class="w3-opacity"><i>Where are you going??</i></p>
+                <p class="w3-opacity"><i>Login here</i></p>
                 
                 
                 
                 <!-- The Tour Section -->
                 <div class="w3-black" id="tour">
                     <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
-                        <h2 class="w3-wide w3-center">Logged out successfully</h2>
-                        <p class="w3-opacity w3-center"><i>Click here if you want to log back in...</i></p>
-                        <a href="#" class="w3-bar-item w3-button">Login</a>
+                        <h2 class="w3-wide w3-center">Sign in here</h2>
+                        <p class="w3-opacity w3-center"><i>If you want to gain access that is...</i></p>
+                        
+                        <ul class="w3-ul w3-border w3-white w3-text-grey">
+                            <li class="w3-padding">Username <input type="text" size="auto" required/></li>
+                            <li class="w3-padding">Password <input type="password" size="auto" required /></li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -64,5 +91,7 @@
             <i class="fa fa-linkedin w3-hover-text-indigo"></i>
             <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
         </footer>
+        
+        
     </body>
 </html>
