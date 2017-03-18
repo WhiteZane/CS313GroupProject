@@ -1,0 +1,15 @@
+CREATE DATABASE Coolness;
+
+CREATE TABLE users (
+    id SERIAL PRIMARY KEY NOT NULL,
+    username VARCHAR(30) UNIQUE NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    github_username VARCHAR(255),
+    github_password VARCHAR(255)
+)
+
+CREATE TABLE repositories (
+    id SERIAL PRIMARY KEY NOT NULL,
+    user_id INT NOT NULL REFERENCES users(id),
+    url VARCHAR(255) NOT NULL
+)
