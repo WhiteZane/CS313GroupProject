@@ -39,10 +39,7 @@
             <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
                 <h2 class="w3-wide">GitHub API Coolness</h2>
                 <p class="w3-opacity"><i>Where are you going??</i></p>
-                
-                
-                
-                <!-- The Tour Section -->
+    
                 <div class="w3-black" id="tour">
                     <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
                         <h2 class="w3-wide w3-center">Logged out successfully</h2>
@@ -51,6 +48,7 @@
                     </div>
                 </div>
             </div>
+            
             <!-- End Page Content -->
         </div>
         
