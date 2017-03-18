@@ -50,10 +50,10 @@
                         
                         <ul class="w3-ul w3-border w3-white w3-text-grey">
                             <form method="post" action="Login">
-                            <li class="w3-padding">Username <input type="text" size="auto" name="username" required/></li>
-                            <li class="w3-padding">Password <input type="password" size="auto" name="password" required /></li>
-                             <input type="submit" value="login" />
-                             </form>
+                                  <li class="w3-padding">Username <input type="text" size="auto" name="username" required/></input></li>
+                                    <li class="w3-padding">Password <input type="password" size="auto" name="password" required /></input></li>
+                                    <input type="submit" value="login" />
+                            </form>
                         </ul>
                     </div>
                 </div>
