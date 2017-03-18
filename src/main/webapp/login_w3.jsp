@@ -35,45 +35,22 @@
         <!-- Page content -->
         <div class="w3-content" style="max-width:2000px;margin-top:46px">
             
-            <!-- Automatic Slideshow Images -->
-            <div class="mySlides w3-display-container w3-center">
-                <img src="/w3images/la.jpg" style="width:100%">
-                <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-                    <h3>Los Angeles</h3>
-                    <p><b>We had the best time playing at Venice Beach!</b></p>   
-                </div>
-            </div>
-            <div class="mySlides w3-display-container w3-center">
-                <img src="/w3images/ny.jpg" style="width:100%">
-                <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-                    <h3>New York</h3>
-                    <p><b>The atmosphere in New York is lorem ipsum.</b></p>    
-                </div>
-            </div>
-            <div class="mySlides w3-display-container w3-center">
-                <img src="/w3images/chicago.jpg" style="width:100%">
-                <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-                    <h3>Chicago</h3>
-                    <p><b>Thank you, Chicago - A night we won't forget.</b></p>    
-                </div>
-            </div>
-            
-            <!-- The Band Section -->
+            <!-- The Welcome Section -->
             <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
                 <h2 class="w3-wide">GitHub API Coolness</h2>
                 <p class="w3-opacity"><i>Login here</i></p>
                 
                 
                 
-                <!-- The Tour Section -->
+                <!-- The Login Section -->
                 <div class="w3-black" id="tour">
                     <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
                         <h2 class="w3-wide w3-center">Sign in here</h2>
                         <p class="w3-opacity w3-center"><i>If you want to gain access that is...</i></p>
                         
                         <ul class="w3-ul w3-border w3-white w3-text-grey">
-                            <li class="w3-padding">Username <input type="text" size="auto" required/></li>
-                            <li class="w3-padding">Password <input type="password" size="auto" required /></li>
+                            <li class="w3-padding">Username <input type="text" size="auto" name="username" required/></li>
+                            <li class="w3-padding">Password <input type="password" size="auto" name="password" required /></li>
                         </ul>
                     </div>
                 </div>
