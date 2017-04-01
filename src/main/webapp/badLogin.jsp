@@ -37,9 +37,7 @@
             
             <!-- The Welcome Section -->
             <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
-                <h2 class="w3-wide">GitHub API Coolness</h2>
-                <p class="w3-opacity"><i>Login here</i></p>
-                
+                <h2 class="w3-wide">GitHub API Coolness</h2>              
                 
                 
                 <!-- The Login Section -->
