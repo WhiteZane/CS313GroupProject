@@ -37,6 +37,8 @@ public class Login extends HttpServlet {
 
         String username = request.getParameter("username");
         String password = request.getParameter("password");
+        
+
 
         // DON'T FORGET THAT IN JAVA YOU DO NOT USE == TO COMPARE STRINGS
 
@@ -45,7 +47,7 @@ public class Login extends HttpServlet {
 
             // correct username and password!
             request.getSession().setAttribute("username", username);
-            response.sendRedirect("profile.jsp");
+            response.sendRedirect("profile_w3.jsp");
         } else {
             response.sendRedirect("badLogin.jsp");
         }
