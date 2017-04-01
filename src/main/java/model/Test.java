@@ -67,7 +67,12 @@ public class Test extends HttpServlet {
                     String username = resultSet.getString("username");
                     String firstname = resultSet.getString("firstname");
                     String lastname = resultSet.getString("lastname");
-                    request.getParameter("username");
+                    
+                    request.getSession().setAttribute("username", username);
+                    request.getSession().setAttribute("firstname", firstname);
+                    request.getSession().setAttribute("lastname", lastname);
+
+                    response.sendRedirect("profile_w3.jsp");
                     String name = resultSet.getString("username");
 
                     out.println("<p>" + id + ", " + name + "</p>");
