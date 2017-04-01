@@ -60,10 +60,14 @@ public class Test extends HttpServlet {
             try (
                     Connection connection = DriverManager.getConnection(dbUrl);
                     Statement statement = connection.createStatement();
-                    ResultSet resultSet = statement.executeQuery("SELECT id, username From users");) {
+                    ResultSet resultSet = statement.executeQuery("SELECT id, username, firstname, lastname From users");) {
 
                 while (resultSet.next()) {
                     int id = resultSet.getInt("id");
+                    String username = resultSet.getString("username");
+                    String firstname = resultSet.getString("firstname");
+                    String lastname = resultSet.getString("lastname");
+                    request.getParameter("username");
                     String name = resultSet.getString("username");
 
                     out.println("<p>" + id + ", " + name + "</p>");
