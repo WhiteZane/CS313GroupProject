@@ -33,9 +33,14 @@
         </div>
     
         <!-- Page content -->
-        <div class="w3-content" style="max-width:2000px;margin-top:46px">      
+        <div class="w3-content" style="max-width:2000px;margin-top:46px">
+            
+            <!-- The Welcome Section -->
+            <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+                <h2 class="w3-wide">GitHub API Coolness</h2>              
                 
-                <!-- The Bad Login Section -->
+                
+                <!-- The Login Section -->
                 <div class="w3-black" id="tour">
                     <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
                         <h1>Bad Login</h1>
